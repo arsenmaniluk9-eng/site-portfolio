@@ -1,0 +1,96 @@
+.hello {
+    font-size: 15px;
+    color: #6B6375;
+    margin: 0;
+    padding-left:2px;
+}
+
+.firstName-secondName {
+    font-size: 48px;
+    color: #4d79ff;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    margin: 0;
+}
+
+.role {
+    font-size: 32px;
+    color: #6B6375;
+    margin: 0;
+    padding-left:2px;
+}
+
+.description {
+    font-size: 15px;
+    color: #6B6375;
+    max-width: 445px;
+    line-height: 1.5;
+    margin: 0;
+    text-align: justify;
+}
+
+.hero {
+    width: min(490px, 100%);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: center;
+    gap: 30px;
+    min-height:100vh; 
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.hero > * {
+    margin: 0;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.btn-project,
+.btn-contact {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  min-width: 170px;
+  color: rgb(235, 222, 222);
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 300ms;
+  background-color: #9b8cff;
+}
+
+.btn-project:hover {
+    background-color: #7a2be2;
+  transition: 300ms;
+}
+
+.btn-contact:hover {
+    background-color: #7a2be2;
+  transition: 300ms;
+}
+
+
+.scroll-down {
+    text-decoration: none;
+    display: inline-block; 
+    margin-top: 20px;      
+    cursor: pointer;
+    font-size: 36px;
+    color: #6a2be2;      
+    transition: 300ms ease;
+    margin:0 auto;
+}
+
+
+.scroll-down:hover {
+color: rebeccapurple;
+transform: translateY(5px);
+}

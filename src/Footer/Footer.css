@@ -1,0 +1,27 @@
+.footer {
+ background-color: rgb(28, 26, 36);
+  width: 100%;
+  display: flex;
+  padding: 20px 40px; 
+  box-sizing: border-box; 
+  border:1px solid black;
+  justify-content:space-between;
+}
+
+.footer-text {
+  margin: 0px 90px; 
+  font-size: 15px;
+}
+
+.back-to-top {
+    font-size: 20px;
+    width:30px;
+    height:30px;    
+   padding-bottom:4px;
+   background-color: #9b8cff;
+   color:white;
+   border:1px;
+   border-radius: 8px;
+   border-color: black;
+   margin-right:110px;
+}
